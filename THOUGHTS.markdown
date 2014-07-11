@@ -3,15 +3,35 @@ Thoughts
 
 MongoDB model
 -----------
-```BSON
+```
+
+t = top
+b = bottom
+r = right
+l = left
+
+All from center of board.
+
 {
   _id:    <ObjectId>
-  cells:  [
-            [0,0,0,0],
-            [0,0,0,0],
-            [0,0,0,0],
-            [0,0,0,0],
-          ],
+  cells:  {
+            ttll: 0,
+            ttl:  0,
+            ttr:  0,
+            ttrr: 0,
+            tmll: 0,
+            tml:  0,
+            tmr:  0,
+            tmrr: 0,
+            bmll: 0,
+            bml:  0,
+            bmr:  0,
+            bmrr: 0,
+            bbll: 0,
+            bbl:  0,
+            bbr:  0,
+            bbrr: 0,
+          },
   highestNum: 0,
   direction:  {
                 up:     <ObjectIdUP>,
