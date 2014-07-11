@@ -1,6 +1,8 @@
 ========
-term2048
+2048 mapper
 ========
+
+Work in progress
 
 .. image:: https://img.shields.io/travis/bfontaine/term2048.png
    :target: https://travis-ci.org/bfontaine/term2048
